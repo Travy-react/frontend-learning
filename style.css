@@ -1,9 +1,0 @@
-/* Box model example -Comply with BEM naming specifications */
-.red-box {
-    width: 200px;     /* Container width */
-    height: 100px;    /* Container height */
-    margin: 20px auto; /* Center horizontally */
-    padding: 15px;     /* Inner spacing */
-    border: 3px solid #ff0000; /* Border style */
-    background-color:pink; /* Background color */
-  }
