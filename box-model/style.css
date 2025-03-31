@@ -7,3 +7,7 @@
     border: 3px solid #ff0000; /* Border style */
     background-color:pink; /* Background color */
   }
+.red-box:hover {  
+  background-color: yellow;  /* The mouse turns yellow */  
+  cursor: pointer;         /* Mouse becomes finger */
+}  
