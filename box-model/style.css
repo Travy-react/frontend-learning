@@ -11,3 +11,17 @@
   background-color: yellow;  /* The mouse turns yellow */  
   cursor: pointer;         /* Mouse becomes finger */
 }  
+button {  
+  background: #4CAF50;  /* Default green color */  
+  color: white;  
+  padding: 10px 20px;  
+  border: none;  
+  transition: all 0.3s;  /* Add transition animation */  
+}  
+button:hover {  
+  background: #45a049;  /* Dark green */  
+  transform: scale(1.05);  /* 5% amplification */  
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);   /* Add shadows */
+}  
+
+
