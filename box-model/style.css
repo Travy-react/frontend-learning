@@ -23,5 +23,15 @@ button:hover {
   transform: scale(1.05);  /* 5% amplification */  
   box-shadow: 0 2px 8px rgba(0,0,0,0.2);   /* Add shadows */
 }  
+/* Rotation animation - infinite loop */  
+@keyframes rotate {  
+  from { transform: rotate(0deg); }   /* The angle of the beginning */  
+  to { transform: rotate(360deg); }   /* The angle of the end */  
+}  
+/* Apply to the red box */  
+.red-box {  
+  animation: rotate 2s linear infinite;  /* One lap in 2 seconds, uniform speed, infinite cycle */  
+}  
+
 
 
