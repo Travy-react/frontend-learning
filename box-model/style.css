@@ -30,8 +30,8 @@ button:hover {
 }  
 /* Apply to the red box */  
 .red-box {  
-  animation: rotate 2s linear infinite;  /* One lap in 2 seconds, uniform speed, infinite cycle */  
+  animation: rotate 2s linear infinite;  
+  animation-play-state: running;  /* Default playback */  
 }  
-
 
 
