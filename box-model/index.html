@@ -8,6 +8,14 @@
   <div class="red-box"></div>
   <!-- Interactive button with click event -->  
   <button onclick="alert('Hello！')">Click on me to say hello.</button>  
+  <script>  
+    // Get box elements  
+    const box = document.querySelector('.red-box');  
+    // Click event: Switch animation pause/play  
+    box.addEventListener('click', () => {  
+      box.style.animationPlayState = box.style.animationPlayState === 'paused' ? 'running' : 'paused';  
+    });  
+  </script>  
   <script src="script.js"></script>  
 </body>
 </html>
