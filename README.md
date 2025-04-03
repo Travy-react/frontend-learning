@@ -15,3 +15,5 @@
 | 动画效果   | [代码](box-model/) | 无限旋转/关键帧动画 |  
 ## 项目截图  
 ![效果预览](images/preview.png)  
+## 🎥 动画演示  
+![点击暂停效果](gifs/animation-demo.gif)  
