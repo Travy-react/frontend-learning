@@ -17,3 +17,5 @@
 ![效果预览](images/preview.png)  
 ## 🎥 动画演示  
 ![点击暂停效果](gifs/animation-demo.gif)  
+## 🤝 参与贡献  
+欢迎提交Pull Request！请先阅读 [贡献指南](CONTRIBUTING.md)  
