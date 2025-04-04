@@ -5,17 +5,25 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="loading"></div>  
+<div class="content hidden">  
   <div class="red-box"></div>
-  <!-- Interactive button with click event -->  
   <button onclick="alert('Hello！')">Click on me to say hello.</button>  
+</div>  
   <script>  
     // Get box elements  
     const box = document.querySelector('.red-box');  
     // Click event: Switch animation pause/play  
     box.addEventListener('click', () => {  
       box.style.animationPlayState = box.style.animationPlayState === 'paused' ? 'running' : 'paused';  
-    });  
+    }); 
+    // Hide animation after the page loads  
+window.onload = function() {  
+  document.querySelector('.loading').style.display = 'none';  
+  document.querySelector('.content').classList.remove('hidden');  
+};   
   </script>  
   <script src="script.js"></script>  
 </body>
 </html>
+
