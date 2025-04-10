@@ -71,4 +71,6 @@ button:hover {
   font-size: 0.9em;  
   height: 18px;  
 }  
-
+.invalid {  
+  border: 2px solid red !important;  
+}  
