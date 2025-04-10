@@ -53,5 +53,22 @@ button:hover {
 .hidden {  
   display: none;  
 }  
+/* Form styles */
+.signup-form {  
+  max-width: 400px;  
+  margin: 30px auto;  
+  padding: 20px;  
+  border: 1px solid #ddd;  
+  border-radius: 8px;  
+}  
 
+.form-group {  
+  margin-bottom: 15px;  
+}  
+
+.error-message {  
+  color: red;  
+  font-size: 0.9em;  
+  height: 18px;  
+}  
 
