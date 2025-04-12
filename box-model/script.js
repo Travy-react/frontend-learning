@@ -35,6 +35,13 @@ document.querySelector('.signup-form').addEventListener('submit', function(e) {
     } else {  
       errorElement.textContent = '';  
       usernameInput.classList.remove('invalid');  
+      const spinner = document.querySelector('.loading-spinner');  
+      spinner.classList.remove('hidden');  
+
+      setTimeout(() => {  
+        spinner.classList.add('hidden');  
+  alert('提交成功！');  
+}, 1500);  
       alert('提交成功！');  
     }  
   });  
