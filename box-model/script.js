@@ -42,6 +42,14 @@ document.querySelector('.signup-form').addEventListener('submit', function(e) {
         spinner.classList.add('hidden');  
   alert('提交成功！');  
 }, 1500);  
-      alert('提交成功！');  
+// Save data to local storage  
+const userData = {  
+  username: usernameInput.value.trim(),  
+  password: passwordInput.value  
+};  
+localStorage.setItem('userData', JSON.stringify(userData));  
+
+// Jump to user information page  
+window.location.href = 'profile.html';  
     }  
   });  
