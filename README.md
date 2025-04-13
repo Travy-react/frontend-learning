@@ -1,3 +1,4 @@
+[![Tests](https://github.com/Travy-react/frontend-learning/actions/workflows/test.yml/badge.svg)](https://github.com/你的用户名/frontend-learning/actions)  
 # 前端学习日记
 
 ## 当前进度
