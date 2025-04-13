@@ -1,0 +1,18 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+  <title>用户信息</title>  
+  <link rel="stylesheet" href="style.css">  
+</head>  
+<body>  
+  <div class="profile">  
+    <h2>已保存的信息</h2>  
+    <p id="saved-username"></p>  
+    <button onclick="location.href='form.html'">返回修改</button>  
+  </div>  
+  <script>  
+    const data = JSON.parse(localStorage.getItem('userData'));  
+    document.getElementById('saved-username').textContent = `用户名：${data?.username || '无'}`;  
+  </script>  
+</body>  
+</html>  
